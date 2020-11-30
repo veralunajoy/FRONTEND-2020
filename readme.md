@@ -1,9 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
-
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-
+**Auteur:** Vera van Maaren
 
 ## Bronnenlijst
 1. -bron 1-
@@ -38,7 +34,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik heb op dit moment nog geen website online staan. Ik ben vooral bezig geweest met de opdrachten op Codepen en met Project. Het is allemaal een beetje messy, ik midden in een verhuizing...
 
 **Screenshot(s):**
 
@@ -58,7 +54,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -na afloop snel uitkomsten vastleggen-
 
-
+## Opdrachten Codepen
+https://codepen.io/collection/nRdkJm
 
 ## Breakdownschets (week 1)
 
