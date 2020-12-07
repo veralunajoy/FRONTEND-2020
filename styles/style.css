@@ -3,3 +3,15 @@
   box-sizing:border-box;  
 }
 
+section:first-of-type {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/bg1desktop.jpg");
+  background-size: cover;
+}
+
+.albumintro {
+  width: 50vw;
+  height: auto;
+}
+
