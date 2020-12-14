@@ -10,6 +10,14 @@ body {
   text-transform: uppercase;
 }
 
+h1 {
+  font-size: 2em;
+}
+
+.logo {
+  width: 60vw;
+}
+
 section {
   width: 100vw;
   height: 100vh;
@@ -20,22 +28,32 @@ section:first-of-type {
   background-size: cover;
 }
 
-.albumintro {
-  width: 50vw;
-  height: auto;
-}
-
 .border {
   width: 95vw;
   height: 70vh;
   border: 2px solid white;
   border-radius: 50px;
   background-color: rgba(176,169,160, .45);
+  position: relative;
+  top: 5em;
+}
+
+.positionsalbum {
+  width: 50vw;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 10em;
 }
 
 section:nth-of-type(2) {
   background-image: url("../images/bg2.jpg");
   background-size: cover;
+}
+
+.positionssingle {
+  width: 50vw;
+  height: auto;
 }
 
 section:nth-of-type(3) {
@@ -53,13 +71,18 @@ section:nth-of-type(4) {
   background-size: cover;
 }
 
+.positionsalbumlist {
+  width: 50vw;
+  height: auto;
+}
+
 section:nth-of-type(5) {
   background-image: url("../images/bg3.jpg");
   background-size: cover;
   color: white;
 }
 
-section:nth-of-type(6) {
+footer {
   background-color: black;
 }
 
