@@ -3,9 +3,19 @@
   box-sizing:border-box;  
 }
 
-section:first-of-type {
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+  text-transform: uppercase;
+}
+
+section {
   width: 100vw;
   height: 100vh;
+}
+
+section:first-of-type {
   background-image: url("../images/bg1desktop.jpg");
   background-size: cover;
 }
@@ -14,4 +24,44 @@ section:first-of-type {
   width: 50vw;
   height: auto;
 }
+
+.border {
+  width: 95vw;
+  height: 70vh;
+  border: 2px solid white;
+  border-radius: 50px;
+  background-color: rgba(176,169,160, .45);
+}
+
+section:nth-of-type(2) {
+  background-image: url("../images/bg2.jpg");
+  background-size: cover;
+}
+
+section:nth-of-type(3) {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.videoImg {
+  width: 90vw;
+}
+
+section:nth-of-type(4) {
+  background-image: url("../images/bg2.jpg");
+  background-size: cover;
+}
+
+section:nth-of-type(5) {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  color: white;
+}
+
+section:nth-of-type(6) {
+  background-color: black;
+}
+
+
 
