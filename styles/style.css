@@ -13,14 +13,29 @@ body {
 h1 {
   font-size: 2em;
   margin-top: 0;
+  padding-top: 1em;
+}
+
+p {
+  margin: 0;
+  padding: 1em;
 }
 
 button {
   background-color: #DEE5EB;
-  padding: 1em 2em 1em 2em;
+  padding: 1.3em 2em 1.3em 2em;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 2px 6px -2px gray; 
+  box-shadow: 0 4px 4px rgba(0,0,0,.1); 
+  font-family: Helvetica;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: .3s ease-in-out all;
+  transition-delay: 0s;
+}
+
+button:hover {
+  background-color: white;
 }
 
 header {
@@ -28,7 +43,9 @@ header {
 }
 
 header img {
-  width: 60vw;
+  position: relative;
+  width: 50vw;
+  left: 25vw;
 }
 
 section {
@@ -56,28 +73,33 @@ section:first-of-type {
   background-color: rgba(176,169,160, .45);
   position: relative;
   top: 5em;
+  left: 2.5vw;
 }
 
-.positionsalbum {
-  width: 50vw;
+section:first-of-type img {
+  width: 80vw;
   height: auto;
   display: block;
   position: absolute;
   top: 10em;
-  left: 25vw;
+  left: 10vw;
 }
+
+
 
 section:nth-of-type(2) {
   background-image: url("../images/bg2.jpg");
   background-size: cover;
 }
 
-.positionssingle {
-  width: 50vw;
+section:nth-of-type(2) img {
+  width: 60vw;
   height: auto;
   transform: rotate(-8deg);
   box-shadow: 1px 1px 6px 0 gray;
 }
+
+
 
 section:nth-of-type(3) {
   background-image: url("../images/bg3.jpg");
