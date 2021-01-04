@@ -52,6 +52,9 @@ button:hover {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
 
 
 
@@ -142,7 +145,7 @@ section:first-of-type button {
 
 
 
-/*TWEEDE SECTIE*/
+/*TWEEDE SECTIE > MUSIC*/
 section:nth-of-type(2) {
   background-image: url("../images/bg2.jpg");
   background-size: cover;
@@ -156,7 +159,7 @@ section:nth-of-type(2) img {
 }
 
 section:nth-of-type(2) h4 {
-  color: #111111;
+  color: #333;
   top: 1em;
   font-weight: 800;
 }
@@ -165,11 +168,15 @@ section:nth-of-type(2) button {
   top: .5em;
 }
 
+section:nth-of-type(2) a h3 {
+  color: black;
+  font-size: 1em;
+  top: 2em;
+}
 
 
 
-
-/*DERDE SECTIE*/
+/*DERDE SECTIE > VIDEOS*/
 section:nth-of-type(3) {
   background-image: url("../images/bg3.jpg");
   background-size: cover;
@@ -182,9 +189,35 @@ section:nth-of-type(3) {
   border-radius: 25px;
 }
 
+section:nth-of-type(3) h4 {
+  top: 1em;
+}
+
+section:nth-of-type(3) a h3 {
+  color: white;
+  font-size: 1em;
+  top: 4em;
+}
+
+
+
+
+
+/*VIERDE SECTIE > STORE*/
 section:nth-of-type(4) {
   background-image: url("../images/bg2.jpg");
   background-size: cover;
+}
+
+
+
+
+
+/*VIJFDE SECTIE > SUBSCRIBE*/
+section:nth-of-type(5) {
+  background-image: url("../images/bg3.jpg");
+  background-size: cover;
+  color: white;
 }
 
 .positionsalbumlist {
@@ -193,12 +226,11 @@ section:nth-of-type(4) {
   border-radius: 25px;
 }
 
-section:nth-of-type(5) {
-  background-image: url("../images/bg3.jpg");
-  background-size: cover;
-  color: white;
-}
 
+
+
+
+/*FOOTER*/
 footer {
   background-color: black;
 }
