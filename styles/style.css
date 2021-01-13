@@ -8,6 +8,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Helvetica;
+  font-weight: 400;
   text-transform: uppercase;
 }
 
@@ -70,6 +71,40 @@ header img {
   left: 25vw;
 }
 
+header nav {
+  position: absolute;
+  width: 50vw;
+  height: 100vh;
+  background-color: #333;
+  left: -50vw;
+  z-index: 100;
+}
+
+header nav.active {
+  left: 0px;
+}
+
+header nav ul li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px 24px;
+}
+
+header nav div {
+  position: absolute;
+  top: -30px;
+  left: 13em;
+}
+
+header nav div span {
+  background-color: #fff;
+  width: 30px;
+  height: 3px;
+  margin-top: 4px;
+  display: block;
+}
+
 
 
 
@@ -78,9 +113,9 @@ header img {
 h4:first-of-type {
   position: relative;
   color: white;
-  font-weight: 10;
+  font-weight: 100;
   letter-spacing: 1px;
-  top: -160px;
+  top: -280px;
 }
 
 button {
@@ -113,21 +148,22 @@ section:first-of-type img {
 }
 
 section:first-of-type img:first-of-type {
-  width: 80vw;
+  width: 75vw;
   height: auto;
   top: 8em;
-  left: 10vw;
+  left: 12.5vw;
 }
 
 section:first-of-type img:nth-of-type(2) {
-  width: 70vw;
+  width: 60vw;
   height: auto;
-  top: 38em;
-  left: 15vw;
+  top: 480px;
+  left: 20vw;
+  padding: .5em 0 2em 0;
 }
 
 section:first-of-type button {
-  top: -70px;
+  top: -200px;
 }
 
 .border {
@@ -158,10 +194,18 @@ section:nth-of-type(2) img {
   box-shadow: 1px 1px 6px 0 gray;
 }
 
-section:nth-of-type(2) h4 {
+section:nth-of-type(2) p {
   color: #333;
-  top: 1em;
+  margin: 2em 0 10em 0;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+section:nth-of-type(2) h2 {
   font-weight: 800;
+  font-size: 32px;
+  margin-top: -5em;
+  letter-spacing: .5px;
 }
 
 section:nth-of-type(2) button {
@@ -171,7 +215,7 @@ section:nth-of-type(2) button {
 section:nth-of-type(2) a h3 {
   color: black;
   font-size: 1em;
-  top: 2em;
+  margin-top: 3em;
 }
 
 
@@ -189,6 +233,11 @@ section:nth-of-type(3) {
   border-radius: 25px;
 }
 
+section:nth-of-type(3) h2 {
+  font-weight: 800;
+  font-size: 32px;
+}
+
 section:nth-of-type(3) h4 {
   top: 1em;
 }
@@ -196,7 +245,7 @@ section:nth-of-type(3) h4 {
 section:nth-of-type(3) a h3 {
   color: white;
   font-size: 1em;
-  top: 4em;
+  margin-top: 4em;
 }
 
 
@@ -207,8 +256,27 @@ section:nth-of-type(3) a h3 {
 section:nth-of-type(4) {
   background-image: url("../images/bg2.jpg");
   background-size: cover;
+  height: auto;
 }
 
+section:nth-of-type(4) img {
+  display: block;
+  width: 70vw;
+  left: 15vw;
+  padding-bottom: 1em;
+}
+
+section:nth-of-type(4) li {
+  list-style-type: none;
+  padding: 2em;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+section:nth-of-type(4) a h3 {
+  margin: 0;
+}
 
 
 
@@ -233,7 +301,18 @@ section:nth-of-type(5) {
 /*FOOTER*/
 footer {
   background-color: black;
+  padding: 1em;
 }
 
+footer a p {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  padding: 5px;
+  font-size: 14px;
+  transition: .3s ease-in-out all;
+}
 
-
+footer a p:hover {
+  color: #888;
+}
