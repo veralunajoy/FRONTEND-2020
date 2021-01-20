@@ -10,14 +10,12 @@
 Ik heb de punten verwerkt die ik nog moest verwerken. Ik heb nu een tweede pagina welliswaar met een tweede css docuement, omdat hij anders ontzettend raar ging doen en ik kreeg dat niet opgelost. Verder doet mijn menu het nu ook en hebben de linkjes een vergelijkbare microinteractie als op de echte site.
 
 **Screenshot(s):**
--screenshot(s) van je eindresultaat-
+screenshot(s) van je eindresultaat
+
 
 
 ## Eindgesprek (week 7/8)
 Helaas was ik er niet aan toegekomen aan een aantal punten te voldoen die belangrijk waren voor de beoordeling. Ik had nog geen tweede pagina, mijn formulier was nog niet af, ik had nog niet echt gekeken naar toegankelijkheid en nog een aantal kleine puntjes. Dit moest ik meenemen naar de herkansing...
-
-**Screenshot(s):**
--screenshot(s) van je eindresultaat-
 
 
 ## Voortgang 3 (week 6 - 4 jan)
@@ -84,4 +82,4 @@ https://xd.adobe.com/view/14e8db71-6dc4-405d-8235-c26610c36197-41bb/?fullscreen
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/screen2.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen1.2ndpage.jpg" width="375px" alt="omschrijving van de pagina">
