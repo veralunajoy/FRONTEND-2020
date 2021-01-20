@@ -35,9 +35,7 @@ N.v.t.
 
 
 ## Voortgang 2 (week 5 - 14 dec)
-Bij week 2 was ik nog steeds niet heel erg opgeschoten. Ik had nog steeds erg weinig. 
-
-Ik heb goed mee kunnen kijken en feedback kunnen geven, dat is natuurlijk ook waardevol. Zo kreeg ik in ieder geval een goed beeld wat er van mij verwacht werd.
+Bij week 2 was ik nog steeds niet heel erg opgeschoten. Ik had nog steeds erg weinig. Desalniettemin heb ik wel feedback gekregen op hetgeen wat ik al wél had. Zo moest ik alle classes die ik had aangemaakt verwijderen en een slimmere manier gebruiken om elementen te stylen.
 
 **Screenshot(s):**
 N.v.t.
