@@ -10,14 +10,20 @@
 Ik heb de punten verwerkt die ik nog moest verwerken. Ik heb nu een tweede pagina welliswaar met een tweede css docuement, omdat hij anders ontzettend raar ging doen en ik kreeg dat niet opgelost. Verder doet mijn menu het nu ook en hebben de linkjes een vergelijkbare microinteractie als op de echte site.
 
 **Screenshot(s):**
-Screenshot(s) van je eindresultaat
 <img src="images/mine.screen1.png" width="375px" alt="omschrijving van de pagina">
+Screen 1
 <img src="images/mine.screen1.1.png" width="375px" alt="omschrijving van de pagina">
+Screen 1 met menu
 <img src="images/mine.screen2.png" width="375px" alt="omschrijving van de pagina">
+Screen 2
 <img src="images/mine.screen3.png" width="375px" alt="omschrijving van de pagina">
+Screen 3
 <img src="images/mine.screen4.png" width="375px" alt="omschrijving van de pagina">
+Screen 4
 <img src="images/mine.screen5.png" width="375px" alt="omschrijving van de pagina">
+Screen 5
 <img src="images/mine.screen1.2ndpage.png" width="375px" alt="omschrijving van de pagina">
+Screen 1 van de tweede pagina
 
 
 ## Eindgesprek (week 7/8)
