@@ -54,8 +54,11 @@ button:hover {
 }
 
 a {
+  position: relative;
   text-decoration: none;
+  color: white;
 }
+
 
 
 
@@ -75,20 +78,41 @@ header nav {
   position: absolute;
   width: 50vw;
   height: 100vh;
-  background-color: #333;
+  background-color: #0f0f11;
   left: -50vw;
   z-index: 100;
-}
-
-header nav.active {
-  left: 0px;
 }
 
 header nav ul li {
   list-style: none;
   color: white;
-  font-size: 20px;
-  padding: 20px 24px;
+  font-size: 18px;
+  padding: 1em;
+  text-align: center;
+  margin-left: -8em;
+}
+
+header nav ul li a {
+  position: absolute;
+}
+
+header nav ul li a:hover {
+  border-bottom: 1px solid white;
+  animation: jiggle .5s infinite;
+}
+
+@keyframes jiggle {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
 header nav div {
@@ -104,6 +128,18 @@ header nav div span {
   margin-top: 4px;
   display: block;
 }
+
+/*JAVASCRIPT TRIGGER*/
+header nav.active {
+  left: 0px;
+  transition: 1s ease-in-out all;
+}
+
+header nav div span.cross {
+  background-color: #0f0f11;
+}
+
+
 
 
 
@@ -268,14 +304,21 @@ section:nth-of-type(4) img {
 
 section:nth-of-type(4) li {
   list-style-type: none;
-  padding: 2em;
+  padding: 1em;
   font-weight: 800;
   font-size: 20px;
   line-height: 1.1;
 }
 
+section:nth-of-type(4) button {
+  top: -1.4em;
+}
+
 section:nth-of-type(4) a h3 {
   margin: 0;
+  padding-bottom: 5em;
+  padding-top: 1em;
+  color: black;
 }
 
 
@@ -288,10 +331,60 @@ section:nth-of-type(5) {
   color: white;
 }
 
-.positionsalbumlist {
-  width: 50vw;
-  height: auto;
-  border-radius: 25px;
+section:nth-of-type(5) fieldset {
+  width: 95vw;
+  height: 85vh;
+  border: 2px solid white;
+  border-radius: 50px;
+  position: relative;
+  margin: 0 auto;
+}
+
+section:nth-of-type(5) fieldset form label:first-of-type::after {
+  content: '*';
+  color: red;
+  padding: .5em;
+}
+
+section:nth-of-type(5) fieldset form label:nth-of-type(2)::after {
+  content: '*';
+  color: red;
+  padding: .5em;
+}
+
+section:nth-of-type(5) fieldset form label {
+  font-weight: 700;
+  display: block;
+  padding: 3em 0 .5em 1.8em;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-align: left;
+}
+
+section:nth-of-type(5) fieldset form input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: white;
+  width: 22em;
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: 200;;
+}
+
+section:nth-of-type(5) fieldset form select {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  border-bottom: 2px solid white;
+  letter-spacing: 3px;
+  font-size: 14px;
+  color: white;
+  width: 22em;
+  text-transform: uppercase;
+  padding: 1em;
+  font-weight: 200;;
 }
 
 
