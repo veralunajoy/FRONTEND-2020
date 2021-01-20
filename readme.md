@@ -2,16 +2,22 @@
 **Auteur:** Vera van Maaren
 
 ## Bronnenlijst
-1. https://www.youtube.com/watch?v=rGAbT8ykGB0&ab_channel=Fireship
-2. https://www.w3schools.com/howto/howto_css_shake_image.asp
-3. https://www.arianagrande.com/
+1. https://www.youtube.com/watch?v=rGAbT8ykGB0&ab_channel=Fireship > voor het slide in menu
+2. https://www.w3schools.com/howto/howto_css_shake_image.asp > voor de keyframes om een goed shake effect te verkrijgen
+3. https://www.arianagrande.com/ > uiteraard ter voorbeeld, maar hier en daar ook voor de code
 
 ## Herkansing
 Ik heb de punten verwerkt die ik nog moest verwerken. Ik heb nu een tweede pagina welliswaar met een tweede css docuement, omdat hij anders ontzettend raar ging doen en ik kreeg dat niet opgelost. Verder doet mijn menu het nu ook en hebben de linkjes een vergelijkbare microinteractie als op de echte site.
 
 **Screenshot(s):**
-screenshot(s) van je eindresultaat
-
+Screenshot(s) van je eindresultaat
+<img src="images/mine.screen1.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/mine.screen1.1.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/mine.screen2.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/mine.screen3.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/mine.screen4.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/mine.screen5.png" width="375px" alt="omschrijving van de pagina">
+<img src="images/mine.screen1.2ndpage.png" width="375px" alt="omschrijving van de pagina">
 
 
 ## Eindgesprek (week 7/8)
@@ -82,4 +88,4 @@ https://xd.adobe.com/view/14e8db71-6dc4-405d-8235-c26610c36197-41bb/?fullscreen
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/screen1.2ndpage.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/screen1.2ndpage.png" width="375px" alt="omschrijving van de pagina">
